@@ -5,6 +5,8 @@ AtliQ Hardware, a global leader in computer peripherals and networking equipment
 
 This comprehensive BI solution provides a 360-degree view of the business, integrating massive datasets to empower stakeholders across Finance, Sales, Marketing, and Supply Chain with real-time, actionable insights.
 
+🔗 [View Live Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOGEzNTcyNTgtNmIyOC00ZGYyLTk5ODEtMjY3YzZlMDcxYmU4IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
+
 💻 Technical Overview
 Data Modeling: Star Schema & Snowflake Schema
 Processing: SQL (MySQL) for data extraction
