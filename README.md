@@ -23,6 +23,7 @@ AtliQ Hardware operates via a diverse distribution network:
 The Challenge: Reliance on static surveys and manual spreadsheets led to a failed expansion in the USA. This project was engineered to replace "gut feeling" with a robust analytics system capable of processing 1.5M+ rows of data to mitigate risk and maximize ROI.
 
 📂 Data Overview
+
 The intelligence engine is fueled by two primary databases: gdb041 (Operational Data) and gdb056 (Financial Metrics).
 
 Database: gdb041 — Includes dim_customer (75+ global profiles), dim_market (27 markets/4 regions), dim_product (3 divisions/14 categories), and core transactional tables fact_sales_monthly & fact_forecast_monthly for inventory health.
