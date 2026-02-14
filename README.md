@@ -25,20 +25,9 @@ The Challenge: Reliance on static surveys and manual spreadsheets led to a faile
 📂 Data Overview
 The intelligence engine is fueled by two primary databases: gdb041 (Operational Data) and gdb056 (Financial Metrics).
 
-1. Database: gdb041
-   
-     dim_customer: Detailed profiles of 75+ global customers (e.g., Amazon, Flipkart) across Brick & Mortar and E-commerce.
-     dim_market: Geographic hierarchy spanning 27 markets and 4 regions (APAC, EU, NAN, LATAM).
-     dim_product: Granular product data across 3 divisions P&A (Peripherals & Accessories), PC (Notebooks & Desktops), N&S (Networking & Storage) and 14 categories.
-     fact_sales_monthly & fact_forecast_monthly: The core transactional tables used to calculate Forecast Accuracy and inventory health.
+Database: gdb041 — Includes dim_customer (75+ global profiles), dim_market (27 markets/4 regions), dim_product (3 divisions/14 categories), and core transactional tables fact_sales_monthly & fact_forecast_monthly for inventory health.
 
-2. Database: gdb056 (Financial & Logistics)
-   
-     gross_price: Baseline pricing strategies.
-     manufacturing_cost: Tracking production expenses over time.
-     pre_invoice_deductions: Pre-set discounts at the customer level.
-     post_invoice_deductions: Variable deductions, claims, and promotions.
-     freight_cost: Logistics and shipping overheads per market.
+Database: gdb056 (Financial & Logistics) — Contains gross_price (pricing strategy), manufacturing_cost (production expenses), pre_invoice_deductions (customer discounts), post_invoice_deductions (claims/promotions), and freight_cost (shipping overheads).
 
 📊 Dashboard Insights
 💰 Finance View - Focuses on P&L statements, Net Sales, and Gross Margin percentages to track the financial heartbeat of the company.
