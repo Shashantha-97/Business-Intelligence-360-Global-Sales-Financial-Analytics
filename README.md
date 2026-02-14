@@ -27,18 +27,18 @@ The intelligence engine is fueled by two primary databases: gdb041 (Operational 
 
 1. Database: gdb041
    
-dim_customer: Detailed profiles of 75+ global customers (e.g., Amazon, Flipkart) across Brick & Mortar and E-commerce.
-dim_market: Geographic hierarchy spanning 27 markets and 4 regions (APAC, EU, NAN, LATAM).
-dim_product: Granular product data across 3 divisions P&A (Peripherals & Accessories), PC (Notebooks & Desktops), N&S (Networking & Storage) and 14 categories.
-fact_sales_monthly & fact_forecast_monthly: The core transactional tables used to calculate Forecast Accuracy and inventory health.
+     dim_customer: Detailed profiles of 75+ global customers (e.g., Amazon, Flipkart) across Brick & Mortar and E-commerce.
+     dim_market: Geographic hierarchy spanning 27 markets and 4 regions (APAC, EU, NAN, LATAM).
+     dim_product: Granular product data across 3 divisions P&A (Peripherals & Accessories), PC (Notebooks & Desktops), N&S (Networking & Storage) and 14 categories.
+     fact_sales_monthly & fact_forecast_monthly: The core transactional tables used to calculate Forecast Accuracy and inventory health.
 
 2. Database: gdb056 (Financial & Logistics)
    
-gross_price: Baseline pricing strategies.
-manufacturing_cost: Tracking production expenses over time.
-pre_invoice_deductions: Pre-set discounts at the customer level.
-post_invoice_deductions: Variable deductions, claims, and promotions.
-freight_cost: Logistics and shipping overheads per market.
+     gross_price: Baseline pricing strategies.
+     manufacturing_cost: Tracking production expenses over time.
+     pre_invoice_deductions: Pre-set discounts at the customer level.
+     post_invoice_deductions: Variable deductions, claims, and promotions.
+     freight_cost: Logistics and shipping overheads per market.
 
 📊 Dashboard Insights
 💰 Finance View - Focuses on P&L statements, Net Sales, and Gross Margin percentages to track the financial heartbeat of the company.
@@ -46,6 +46,7 @@ freight_cost: Logistics and shipping overheads per market.
 
 📈 Sales & Marketing View
 Identifies top-performing customers and products while analyzing market share and promotional effectiveness.
+
 Sales View <img width="1871" height="1055" alt="Sales View" src="https://github.com/user-attachments/assets/facd5ed9-1f2f-4469-ab72-9a3d68783afd" />
 Marketing View <img width="1877" height="1052" alt="Marketigng View" src="https://github.com/user-attachments/assets/fcef43dc-adf8-4505-9fd6-fa362f95116b" />
 
